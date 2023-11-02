@@ -15,5 +15,40 @@
 .contenitore{
     max-width: 1200px;
     margin: 0 auto;
+}
 
+/* 
+    HEADER
+*/
+
+.top{
+    background-color: orangered;
+}
+.ricerca{
+    display: flex;
+    justify-content: space-around;
+}
+.contenitore  a{
+    text-decoration: none;
+    color: white;
+}
+.column.header{
+    margin-top: 10px;
+}
+
+.column.header.nd > img{
+    width: 20%;
+    text-align: center;
+    margin-left: 29%;
+}
+
+.column.header.th{
+    color: white;
+    margin-top: 10px;
+}
+.dinstance{
+    margin-top: 50px;
+    width: calc(100% / 3 - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
 }
